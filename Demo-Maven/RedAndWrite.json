@@ -1,0 +1,12 @@
+{
+  "student" : [ {
+    "name" : "Tarun",
+    "Age" : 10,
+    "Adress" : [ "Kharvel ", "Nishal Faliya  ", "Dharampur " ]
+  } ],
+"student" : [ {
+    "name" : "Lalu",
+    "Age" : 10,
+    "Adress" : [ "Valsad ", "Nishal Faliya  ", "Dharampur " ]
+  } ]
+}
