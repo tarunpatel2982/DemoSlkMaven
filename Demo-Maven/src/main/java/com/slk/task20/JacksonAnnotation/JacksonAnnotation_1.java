@@ -1,4 +1,4 @@
-package com.slk.task20;
+package com.slk.task20.JacksonAnnotation;
 
 public class JacksonAnnotation_1 {
 

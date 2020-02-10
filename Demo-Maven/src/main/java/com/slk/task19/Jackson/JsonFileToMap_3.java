@@ -1,4 +1,4 @@
-package com.slk.task19;
+package com.slk.task19.Jackson;
 
 import java.io.File;
 import java.util.HashMap;

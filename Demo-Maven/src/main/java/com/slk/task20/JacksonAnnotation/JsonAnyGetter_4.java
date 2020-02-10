@@ -1,4 +1,4 @@
-package com.slk.task20;
+package com.slk.task20.JacksonAnnotation;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -35,6 +35,8 @@ class Student
 	public Student() {
 		map = new HashMap<String, String>();
 	}
+	
+	//Json Serialization Annotation
 	//this Annotation Remove Checked The OutPut
 	@JsonAnyGetter//this Annotation Used For Remove Properties Object Name
 	public Map<String, String> getProperties()
