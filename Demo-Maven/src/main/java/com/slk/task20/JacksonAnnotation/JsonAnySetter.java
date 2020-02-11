@@ -39,7 +39,7 @@ class A
 	private Map<String, String> properties;
 	public A()
 	{
-		properties= new HashMap<>();
+		properties= new HashMap();
 	}
 	
 	public Map<String, String> getProperties()

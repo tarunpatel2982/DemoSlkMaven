@@ -1,6 +1,7 @@
 package com.slk.task19.Jackson;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -13,12 +14,12 @@ public class TrversingJsonArray_4_2 {
 		// TODO Auto-generated method stub
 
 		ObjectMapper objectMapper = new ObjectMapper();
-		File file = new File("/home/SLKTECHLABS/tarun.patel/git/DemoSlkMaven/Demo-Maven/src/main/java/com/slk/task19/user2.json");
+		File file = new File("/home/SLKTECHLABS/tarun.patel/git/DemoSlkMaven/Demo-Maven/src/main/java/com/slk/task19/Jackson/user.json");
 		try {
 				JsonNode  rootArray = objectMapper.readTree(file);
 					for (JsonNode jsonNode : rootArray) 
 					{
-						
+						System.out.println(jsonNode);
 							//get Id
 							
 							long id=  jsonNode.path("id").asLong();
@@ -53,10 +54,14 @@ public class TrversingJsonArray_4_2 {
 								{
 									System.out.println("Array Is Empty");
 								}
-						System.out.println("......................................................................................"
-								+ "");
+						System.out.println("......................................................................................");
 					}
-		} catch (JsonProcessingException e) {
+		}catch(FileNotFoundException f)
+	
+		{
+			f.fillInStackTrace();
+		}
+		catch (JsonProcessingException e) {
 			
 			// TODO Auto-generated catch block
 			

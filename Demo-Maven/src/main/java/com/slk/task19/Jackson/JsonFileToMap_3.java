@@ -12,6 +12,7 @@ public class JsonFileToMap_3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		
 		JsonFileToMap_3 jsonFileToMap = new JsonFileToMap_3();
 		Map<String, Object> map = jsonFileToMap.getMap(new File("/home/SLKTECHLABS/tarun.patel/git/DemoSlkMaven/Demo-Maven/src/main/java/com/slk/task19/user.json"));
 	
