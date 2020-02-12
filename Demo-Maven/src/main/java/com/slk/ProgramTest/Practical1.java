@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-public class SortArrayFiveWay_1 {
+public class Practical1 {
 
 	
 	public static void oneWay()
@@ -138,8 +138,6 @@ public class SortArrayFiveWay_1 {
 	
 	public static void sixway()
 	{
-		int arr[] = {5,3,8,1,6,4,8,15};
-		
 		
 	}
 	public static void main(String[] args) {
